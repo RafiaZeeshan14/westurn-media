@@ -12,8 +12,8 @@ export function Hero() {
         <div className="hero-photo-overlay absolute inset-0" />
       </motion.div>
 
-      <div className="relative z-10 mx-auto flex max-w-[1440px] items-center px-6 pb-12 pt-28 lg:min-h-screen lg:px-4 lg:pb-0 lg:pt-20">
-        <div className="w-full lg:ml-8 xl:-ml-2 lg:w-[64%] lg:pl-0 lg:pr-6">
+      <div className="relative z-10 mx-auto flex max-w-[1440px] lg:ml-6 items-center px-6 pb-12 pt-28 lg:min-h-screen lg:px-4 lg:pb-0 lg:pt-20">
+        <div className="w-full  lg:w-[64%] lg:pl-0 lg:pr-6">
           <motion.p initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .05, duration: .55, ease: 'easeOut' }} className="mt-3 flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.24em] text-signal">
             <span className="h-px w-8 bg-signal" /> Ideas <span className="text-ink/25">|</span> Experiences <span className="text-ink/25">|</span> Impact
           </motion.p>
@@ -38,8 +38,8 @@ export function Hero() {
             From concept to execution, we create powerful brand experiences that leave a lasting impression.
           </motion.p>
           <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .3, duration: .6, ease: 'easeOut' }} className="mt-9 flex flex-wrap gap-3">
-            <a href="#contact" className="flex items-center gap-3 rounded-full bg-signal px-6 py-4 text-[10px] font-bold uppercase tracking-[.14em] text-white transition hover:bg-ink">Let&apos;s create together <ArrowUpRight size={14} /></a>
-            <a href="#work" className="flex items-center gap-3 rounded-full border border-ink/20 bg-white/70 px-6 py-4 text-[10px] font-bold uppercase tracking-[.14em] transition hover:border-signal hover:text-signal">Explore our work <ArrowUpRight size={14} /></a>
+            <a href="#contact" className="flex items-center gap-2 rounded-full bg-signal px-5 py-4 text-[10px] font-bold uppercase tracking-[.14em] text-white transition hover:bg-ink">Let&apos;s create together <ArrowUpRight size={14} /></a>
+            <a href="#work" className="flex items-center gap-2 rounded-full border border-ink/20 bg-white/70 px-5 py-4 text-[10px] font-bold uppercase tracking-[.14em] transition hover:border-signal hover:text-signal">Explore our work <ArrowUpRight size={14} /></a>
           </motion.div>
 
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: .45, duration: .7, ease: 'easeOut' }} className="mt-16 hidden items-center gap-3 text-[10px] font-bold uppercase tracking-[.18em] text-ink/40 lg:flex">
