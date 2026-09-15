@@ -12,7 +12,7 @@ export function Hero() {
         <div className="hero-photo-overlay absolute inset-0" />
       </motion.div>
 
-      <div className="relative z-10 mx-auto flex max-w-[1440px] lg:ml-7 items-center px-6 pb-12 pt-28 lg:min-h-screen lg:px-4 lg:pb-0 lg:pt-20">
+      <div className="relative z-10 mx-auto flex max-w-[1440px] lg:ml-7 items-center px-6 pb-12 pt-28 lg:min-h-screen lg:px-4 lg:pb-0 lg:pt-26">
         <div className="w-full  lg:w-[64%] lg:pl-0 lg:pr-6">
           <motion.p initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .05, duration: .55, ease: 'easeOut' }} className="mt-3 flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.24em] text-signal">
             <span className="h-px w-8 bg-signal" /> Ideas <span className="text-ink/25">|</span> Experiences <span className="text-ink/25">|</span> Impact
