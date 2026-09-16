@@ -15,7 +15,7 @@ export function WhyUs() {
       <div className="mx-auto max-w-[1440px]">
         <div className="mx-auto max-w-3xl text-center">
           <p className="mb-6 text-xs font-bold uppercase tracking-[.2em] text-signal">04 / Why Westurn</p>
-          <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 1.1, ease: 'easeOut' }}><h2 className="hero-title text-5xl md:text-8xl">Good energy.<br /><em>Great work.</em></h2></motion.div>
+          <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 1.1, ease: 'easeOut' }}><h2 className="hero-title text-6xl md:text-8xl">Good energy.<br /><em>Great work.</em></h2></motion.div>
         </div>
 
         <div className="mx-auto mt-16 max-w-5xl border-t border-black/15">

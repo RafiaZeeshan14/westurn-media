@@ -30,7 +30,7 @@ export function Navbar() {
         <button aria-label="Toggle menu" onClick={() => setOpen(!open)} className="md:hidden">{open ? <X /> : <Menu />}</button>
       </div>
       <AnimatePresence>
-        {open && <motion.nav initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="overflow-hidden border-t border-black/10 bg-white md:hidden"><div className="flex flex-col gap-6 px-6 py-8">{links.map(([label, href]) => <a onClick={() => setOpen(false)} key={href} href={href} className="display text-3xl font-bold">{label}</a>)}</div></motion.nav>}
+        {open && <motion.nav initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="overflow-hidden border-t border-black/10 bg-white md:hidden"><div className="flex flex-col gap-6 px-6 py-8">{links.map(([label, href]) => <a onClick={() => setOpen(false)} key={href} href={href} className="display text-2xl ">{label}</a>)}</div></motion.nav>}
       </AnimatePresence>
     </header>
   );

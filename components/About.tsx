@@ -31,7 +31,7 @@ export function About() {
       <div className="relative z-10 mx-auto max-w-[1440px]">
       <div className="mx-auto max-w-4xl text-center">
         <p className="mb-6 text-xs font-bold uppercase tracking-[.2em] text-signal">01 / About us</p>
-        <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 1.1, ease: 'easeOut' }}><h2 className="hero-title text-5xl leading-[.95] md:text-8xl">The details are the <em>difference.</em></h2></motion.div>
+        <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 1.1, ease: 'easeOut' }}><h2 className="hero-title text-6xl leading-[.95] md:text-8xl">The details are the <em>difference.</em></h2></motion.div>
         <p className="mx-auto mt-8 max-w-2xl text-base leading-7 text-ink/60">
           Westurn Media is an independent event partner for teams who want to move people, not just fill a room. From first thought to final encore, we bring clear thinking, sharp creative and calm execution to every brief.
         </p>

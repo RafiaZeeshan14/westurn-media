@@ -185,7 +185,7 @@ export function Hero() {
                 relative
                 z-10
                 max-w-[290px]
-                text-[clamp(3.8rem,14vw,5.2rem)]
+                text-[clamp(4.2rem,14vw,5.2rem)]
                 leading-[.84]
               "
             >
@@ -358,7 +358,7 @@ export function Hero() {
             className="
               relative
               z-10
-              mt-5
+              
               flex
               items-center
               gap-5
@@ -367,6 +367,7 @@ export function Hero() {
               uppercase
               tracking-[.18em]
               text-ink/40
+              pb-3
 
               md:mt-8
               md:justify-center
@@ -380,7 +381,7 @@ export function Hero() {
             Scroll to explore
 
             <ArrowDown
-              size={16}
+              size={14}
               className="text-ink/50"
             />
           </motion.div>

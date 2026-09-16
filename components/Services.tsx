@@ -51,7 +51,21 @@ export function Services() {
       <div className="mx-auto max-w-[1440px]">
         <div className="mb-16 text-center">
           <p className="mb-6 text-xs font-bold uppercase tracking-[.2em] text-signal">02 / Expertise</p>
-          <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 1.1, ease: 'easeOut' }}><h2 className="hero-title mx-auto max-w-3xl text-5xl md:text-8xl">From brief to<br /><em>brand impact.</em></h2></motion.div>
+<motion.div
+  initial={{ opacity: 0, y: 24 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true, margin: '-80px' }}
+  transition={{ duration: 1.1, ease: 'easeOut' }}
+>
+  <h2 className="hero-title mx-auto max-w-[360px] text-center text-[3.8rem] leading-[0.88] md:max-w-3xl md:text-8xl">
+    <span className="block whitespace-nowrap">
+      From brief to
+    </span>
+    <em className="block whitespace-nowrap">
+      brand impact.
+    </em>
+  </h2>
+</motion.div>
         </div>
 
         <div className="space-y-14">

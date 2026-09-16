@@ -9,7 +9,7 @@ export function ContactCTA() {
       <div className="mx-auto grid max-w-[1440px] gap-16 lg:grid-cols-[.9fr_1.1fr]">
         <div>
           <p className="mb-6 text-xs font-bold uppercase tracking-[.2em] text-signal">05 / Make a move</p>
-          <h2 className="hero-title max-w-xl text-5xl leading-[.98] md:text-7xl">Let&apos;s create something <em>extraordinary.</em></h2>
+          <h2 className="hero-title max-w-xl text-[3.6rem] leading-[.98] md:text-7xl">Let&apos;s create something <em>extraordinary.</em></h2>
           <div className="mt-14 space-y-5 text-sm text-ink/60">
             <a className="flex items-center gap-3 transition hover:text-signal" href="mailto:hello@westurn.media"><Mail size={16} /> hello@westurn.media</a>
             <a className="flex items-center gap-3 transition hover:text-signal" href="tel:+922135555555"><Phone size={16} /> +92 21 3555 5555</a>

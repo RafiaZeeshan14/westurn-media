@@ -29,7 +29,7 @@ export function Clients() {
       <div className="mx-auto max-w-[1440px]">
         <div className="mx-auto max-w-3xl text-center">
           <p className="mb-6 text-xs font-bold uppercase tracking-[.2em] text-signal">03 / Our clients</p>
-          <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 1.1, ease: 'easeOut' }}><h2 className="hero-title text-5xl md:text-8xl">Trusted by<br /><em>leading brands.</em></h2></motion.div>
+          <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 1.1, ease: 'easeOut' }}><h2 className="hero-title text-6xl md:text-8xl">Trusted by<br /><em>leading brands.</em></h2></motion.div>
           <p className="mx-auto mt-6 max-w-xl text-sm leading-6 text-ink/55">
             We work with ambitious teams to create experiences that move people and build lasting brand value.
           </p>
