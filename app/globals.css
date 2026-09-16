@@ -30,6 +30,8 @@ body { background: #fff; color: #111; }
 @keyframes about-glow { from { opacity: .45; transform: scale(.98); } to { opacity: .9; transform: scale(1.04); } }
 
 .hero-art, .hero-mobile-art { background: #161313; clip-path: polygon(33% 0, 100% 0, 100% 100%, 0 100%); }
+.hero-mobile-photo { clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 65%); }
+.hero-mobile-photo .hero-photo-overlay { background: linear-gradient(to top, rgba(12, 15, 20, .2), transparent 48%); }
 .hero-photo { z-index: 0; }
 .hero-photo-overlay { z-index: 1; background: linear-gradient(115deg, rgba(12, 15, 20, .34), rgba(35, 40, 48, .1) 46%, rgba(12, 15, 20, .2) 100%), linear-gradient(to top, rgba(12, 15, 20, .2), transparent 52%); }
 .hero-scroll-line { animation: hero-scroll-line 2s ease-in-out infinite; }
@@ -42,6 +44,10 @@ body { background: #fff; color: #111; }
 
 @media (max-width: 1023px) {
   .hero-mobile-art { clip-path: none; }
+}
+
+@media (max-width: 1023px) {
+  .hero-mobile-photo { height: 46%; }
 }
 .about-atmosphere::after { position: absolute; z-index: 0; inset: 0; background: radial-gradient(ellipse at 16% 55%, rgba(200, 16, 46, .13), transparent 26%), radial-gradient(ellipse at 84% 38%, rgba(200, 16, 46, .09), transparent 28%); content: ''; filter: blur(26px); animation: about-glow 12s ease-in-out infinite alternate; }
 .soft-glow { position: relative; isolation: isolate; overflow: hidden; }
